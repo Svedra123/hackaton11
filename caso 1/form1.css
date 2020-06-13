@@ -5,11 +5,11 @@
 	margin-top: 45px
 }
 
-.sr {
+.igual {
 	padding: 0px 18px 18px 18px;
 }
 
-.sr button {
+.igual button {
 	width: 100%;
 	background-color:orange;
 	color: white;
@@ -47,7 +47,7 @@
 	width: 54px;
 	height: 54px;
 	padding: 9px 15px;
-	background-color: black;
+	background-color: peru;
 	color: white;
 	border: none;
 }
@@ -63,11 +63,24 @@
 }
 
 .numeros button:hover {
-	box-shadow: 0px 0px 12px #aaa;
+	box-shadow: 0px 0px 12px yellow;
 }
 
 button {
 	margin: 2px 0px;
 	padding: 15px 24px;
 	font-size: 19px;
+}
+
+.limpiar {
+	padding: 0px 18px 18px 18px;
+}
+
+.limpiar button {
+	width: 100%;
+	background-color:red;
+	color: white;
+	border: none;
+	font-size: 24px;
+	padding: 0px
 }
