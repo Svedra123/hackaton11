@@ -1,0 +1,73 @@
+.calculadora {
+	background-color:green;
+	width: fit-content;
+	margin: auto;
+	margin-top: 45px
+}
+
+.sr {
+	padding: 0px 18px 18px 18px;
+}
+
+.sr button {
+	width: 100%;
+	background-color:orange;
+	color: white;
+	border: none;
+	font-size: 45px;
+	padding: 0px
+}
+
+.teclas {
+	display: flex;
+}
+
+.pantalla {
+	padding-top: 18px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.numeros {
+	padding: 18px 9px 18px 18px;
+}
+.op {
+	padding: 18px 18px 18px 9px
+}
+
+#resultado {
+	background-color:rgb(25, 16, 112);
+	color:white;
+	padding: 6px;
+	font-size: 24px
+}
+
+.op button {
+	display: block;
+	width: 54px;
+	height: 54px;
+	padding: 9px 15px;
+	background-color: black;
+	color: white;
+	border: none;
+}
+
+.numeros div{
+    text-align: center;
+}
+
+.numeros button {
+	border: 0px;
+	background-color: white;
+
+}
+
+.numeros button:hover {
+	box-shadow: 0px 0px 12px #aaa;
+}
+
+button {
+	margin: 2px 0px;
+	padding: 15px 24px;
+	font-size: 19px;
+}
